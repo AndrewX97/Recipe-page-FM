@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: #f3e5d8;
+}
+h1 {
+  font-family: "Young Serif";
+  margin: 10px 40px;
+}
+.container {
+  position: absolute;
+  top: 80px;
+  left: 600px;
+  margin-bottom: 50px;
+  width: 737px;
+  height: 1780px;
+  background-color: #ffffff;
+  border-radius: 15px;;
+}
+.image {
+  margin: 30px 40px;
+  width: 650px;
+  height: 300px;
+  border-radius: 15px;
+}
+.subtitle{
+  margin: 0px 40px;
+  font-family: "Outfit";
+  font-size: 1rem;
+  text-align: left;
+  color: #5f5657;
+}
+.redsquare{
+  padding: 10px;
+  margin: 30px 40px;
+  width: 650px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: #fff7fc;
+}
+.redsquare > h3{
+  color: #532338;
+  font-family: "Outfit";
+}
+.redsquare > ul > li{
+  font-family: "Outfit";
+  color: #5f5657;
+}
+.redsquare > ul > li::marker{
+  color: #532338;
+}
+.ingredients{
+  margin: 30px 40px;
+}
+h2{
+  color: #814731;
+  font-family: "Young serif";
+}
+.ingredients > ul > li{
+  font-family: "Outfit";
+  color: #5f5657;
+}
+.ingredients > ul > li::marker{
+  color: #814731;
+}
+.division{
+  border-bottom: 1px solid #e0e0e0;
+  margin: 0 25px;
+}
+.instructions{
+  margin: 30px 40px;
+}
+.instructions > ol > li{
+  font-family: "Outfit";
+  color: #5f5657;
+}
+.instructions > ol > li::marker{
+  color: #814731;
+}
+.nutrition{
+  margin: 30px 40px;
+}
+table > tbody > tr > td{
+  padding-left: 25px;
+  padding-right: 250px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.col1{
+  font-size: 18px;
+  font-family: "Outfit";
+  color: #5f5657;
+}
+.col2{
+  font-size: 18px;
+  font-family: "Outfit";
+  color: #814731;
+}
