@@ -76,6 +76,7 @@ h2{
 .instructions > ol > li{
   font-family: "Outfit";
   color: #5f5657;
+  padding: 7px 0;
 }
 .instructions > ol > li::marker{
   color: #814731;
